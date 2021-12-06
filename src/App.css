@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: white;
 }
 
 .App-logo {
@@ -35,4 +36,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card{
+  width:18rem;
+}
+
+.img{
+  border-radius:30px;
+  width:100%;
+  height:450px;
+  background-image:url('Images/IMG_6992.jpg');
+  background-size:cover;
+  margin-top:50px;
+}
+
+.Names{
+  size: 35px;
+  color: whitesmoke;
+  padding:4px;
 }
